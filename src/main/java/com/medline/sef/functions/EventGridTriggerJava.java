@@ -18,5 +18,6 @@ public class EventGridTriggerJava {
         context.getLogger().info("Java Event Grid trigger function executed.");
         context.getLogger().info(message);
         document.setValue(message);
+        
     }
 }
